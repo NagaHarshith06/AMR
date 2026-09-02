@@ -11,24 +11,17 @@ These embeddings are then intended to be used as input to a neural-network class
 ## Project Pipeline
 
 Bacterial Genome (.fna)
-        |
-        v
+        ->
 Sequence Preprocessing
-        |
-        v
+        ->
 Nucleotide Transformer v2
-        |
-        v
+        ->
 Genome Windows
-        |
-        v
+        ->
 512-dimensional Embeddings
-        |
-        v
+        ->
 Neural Network Classifier
-        |
-        v
+        ->
 AMR Predictions
-        |
-        v
+        ->
 12 Antibiotics
